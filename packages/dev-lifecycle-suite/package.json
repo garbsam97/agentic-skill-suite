@@ -1,0 +1,35 @@
+{
+  "name": "@garbsam97/dev-lifecycle-suite",
+  "version": "1.0.1",
+  "description": "Standalone software development lifecycle suite of skills and subagent templates from idea to production.",
+  "main": "dist/cli.js",
+  "bin": {
+    "dev-lifecycle-suite": "./dist/cli.js",
+    "garbsamu-suite": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "subagents",
+    "rules",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node dist/cli.js --version",
+    "install-skills": "node dist/cli.js install"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "antigravity",
+    "skills",
+    "subagents",
+    "npx",
+    "cli",
+    "tdd",
+    "agentic"
+  ],
+  "author": "garbsam97",
+  "license": "MIT"
+}

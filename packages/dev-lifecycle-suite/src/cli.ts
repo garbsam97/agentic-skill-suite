@@ -7,7 +7,7 @@ const program = new Command();
 program
   .name('dev-lifecycle-suite')
   .description('CLI installer for garbsamu-suite agentic development skills')
-  .version('1.0.0');
+  .version('1.1.0');
 
 program
   .command('install')

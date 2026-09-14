@@ -1,6 +1,6 @@
 {
   "name": "@garbsam97/dev-lifecycle-suite",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Standalone software development lifecycle suite of skills and subagent templates from idea to production.",
   "main": "dist/cli.js",
   "bin": {

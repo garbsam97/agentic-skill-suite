@@ -1,12 +1,13 @@
 {
   "name": "dev-lifecycle-suite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Standalone software development lifecycle suite of skills and subagent templates from idea to production.",
   "skills": [
     "ideation-discovery",
     "architecture-design",
     "implementation-tdd",
     "qa-security",
+    "dependency-audit",
     "deployment-ops",
     "garbsamu-pipeline"
   ],
@@ -15,6 +16,7 @@
     "system-architect",
     "builder-agent",
     "audit-agent",
+    "dependency-auditor",
     "release-agent"
   ],
   "rules": [

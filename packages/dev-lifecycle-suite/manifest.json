@@ -1,6 +1,6 @@
 {
   "name": "dev-lifecycle-suite",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Standalone software development lifecycle suite of skills and subagent templates from idea to production.",
   "skills": [
     "ideation-discovery",
@@ -14,10 +14,14 @@
   "subagents": [
     "idea-refiner",
     "system-architect",
+    "ui-frontend-architect",
     "builder-agent",
+    "ui-frontend-builder",
     "audit-agent",
+    "ui-frontend-auditor",
     "dependency-auditor",
-    "release-agent"
+    "release-agent",
+    "ui-frontend-release"
   ],
   "rules": [
     "lifecycle-standards.md"

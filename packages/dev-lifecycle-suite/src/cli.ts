@@ -7,7 +7,7 @@ const program = new Command();
 program
   .name('dev-lifecycle-suite')
   .description('CLI installer for garbsamu-suite agentic development skills')
-  .version('1.1.0');
+  .version('1.2.0');
 
 program
   .command('install')
@@ -17,7 +17,7 @@ program
   .option('-f, --force', 'Force overwrite existing skills')
   .action(async (targetDirArg, options) => {
     try {
-      console.log('\n🚀 dev-lifecycle-suite (garbsamu-suite) Installer\n');
+      console.log('\n🚀 dev-lifecycle-suite (garbsamu-suite) Installer v1.2.0\n');
 
       const targetResult = resolveTargetPath({
         global: options.global,
@@ -39,7 +39,7 @@ program
           console.log(`  [+] ${skill}`);
         }
 
-        console.log('\n💡 You can now invoke `/garbsamu-pipeline <idea>` in your AI agent workspace.\n');
+        console.log('\n💡 You can now invoke `/garbsamu-pipeline <idea> [--track backend|frontend|fullstack]` in your AI agent workspace.\n');
       }
     } catch (err: any) {
       console.error('❌ Installation failed:', err.message || err);

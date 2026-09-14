@@ -89,7 +89,7 @@ async function main() {
           console.log(`  [+] ${skill}`);
         }
 
-        console.log('\n💡 You can now invoke `/garbsamu-pipeline <idea>` in your AI agent workspace.\n');
+        console.log('\n💡 You can now invoke `/garbsamu-pipeline <idea> [--track backend|frontend|fullstack]` in your AI agent workspace.\n');
       }
     } catch (err) {
       console.error('❌ Installation failed:', err.message || err);
